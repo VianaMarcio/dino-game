@@ -26,16 +26,16 @@ function jump() {
           clearInterval(downInterval);
           isJumping = false;
         } else {
-          position -= 20;
+          position -= 18;
           dino.style.bottom = position + 'px';
         }
-      }, 20);
+      }, 18);
     } else {
       // Subindo
-      position += 20;
+      position += 18;
       dino.style.bottom = position + 'px';
     }
-  }, 20);
+  }, 18);
 }
 
 function createCactus() {
